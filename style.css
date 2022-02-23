@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Josefin+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.main-div{
+    width: 100vw;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: rgb(127, 177, 214);
+}
+
+.inner-div{
+    width: 40vw;
+    background-color: #fff;
+    padding: 3rem 8rem;
+    border-radius: 1rem;
+    box-shadow: 0rem 1rem 1rem --0.7rem rgba(0, 0, 0, 0.4);
+}
+
+.inner-div h2{
+    font-size: 3.5rem;
+    font-weight: 400;
+    margin: 1rem 0 4rem 0;
+}
+
+.inner-div li{
+    font-size: 2rem;
+    margin-top: 1.5rem;
+    list-style: none;
+}
+
+input{
+    cursor: pointer;
+}
+
+#submit, .btn{
+    padding: 1rem 3rem;
+    outline: none;
+    font-size: 2rem;
+    font-size: 400;
+    display: block;
+    margin: auto;
+    border: none;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #0a77e4;
+    margin-top: 4rem;
+    cursor: pointer;
+}
+
+#submit:hover{
+    background-color: #034a80;
+}
+
+
+#showScore{
+    background-color: #dfe6e9;
+    margin-top: 3rem;
+    padding: 3rem 4rem;
+    box-shadow: 0rem 1rem 1rem --0.7rem rgba(0, 0, 0, 0.4);
+}
+#showScore h3{
+    font-size: 3rem;
+    text-align: center;
+}
+#showScore .btn{
+    margin-top: 2rem;
+    background-color: #55efc4;
+    color: #2d3436;
+}
+
+#showScore .btn :hover{
+    background-color: #00b894;
+    color: #fff;
+}
+.scoreArea{
+    display: none;
+}
